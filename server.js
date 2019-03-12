@@ -3,7 +3,7 @@ const exphbs = require("express-handlebars");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 
-const PORT = 8080;// Use morgan logger for logging requests
+const PORT = process.env.PORT || 8080;// Use morgan logger for logging requests
 
 const app = express();
 
