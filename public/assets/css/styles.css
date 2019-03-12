@@ -1,0 +1,30 @@
+body {
+    background-image: url("../images/bg.jpg");
+}
+
+.index-div {
+    color: white;
+    background-color: rgba(150, 150, 150, .5);
+    text-align: center;
+}
+
+.nav-color {
+    background-color: lightblue;
+}
+
+.headline-text {
+    font-size: 150%;
+    margin-bottom: 10px;
+}
+
+.summary-text {
+    margin-bottom: 10px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+

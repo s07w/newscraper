@@ -1,0 +1,31 @@
+{
+  "name": "newscraper",
+  "version": "1.0.0",
+  "description": "let's try this again.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s07w/newscraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s07w/newscraper/issues"
+  },
+  "homepage": "https://github.com/s07w/newscraper#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "logger": "0.0.1",
+    "mongoose": "^5.4.19",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10"
+  }
+}

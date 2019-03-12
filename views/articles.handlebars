@@ -1,0 +1,32 @@
+<div class="title ml-2 mt-2">
+    <h1>Articles</h1>
+</div>
+<div class="container-fluid">
+    <div class="row mb-5">
+    {{#each results}}
+        <div class="col-sm-12 col-lg-6">
+            <div class="card mt-5">
+                <div class="card-header" style="background-color: lightblue">
+                    <div class="row">
+                        <div class="col-sm 12 col-lg-9 text-white headline-text">
+                            {{this.headline}}
+                        </div>
+                         <div class="col-sm 12 col-lg-9 text-white summary-text">
+                           {{this.summary}}
+                        </div>
+                        <div class="col-sm 12 col-lg-9 text-white link-text"></div>
+                            <a href="http://www.nhl.com/{{this.link}}" target="_blank">https://www.nhl.com{{this.link}}</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    {{/each}}
+    </div>
+</div>   
+
+
+
+
